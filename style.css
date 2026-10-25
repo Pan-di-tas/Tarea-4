@@ -1,0 +1,107 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: helvetica;
+  font-size: 15px;
+  line-height: 20px;
+  color: black;
+  border: 1px blue solid;
+}
+
+.ancho{
+  margin: auto;
+  max-width: 1200px;
+}
+
+.centro{
+  text-align: center;
+}
+
+.margen{
+  padding: 15px;
+}
+
+.negritas{
+  font-weight: bold;
+}
+
+.cintaA{
+  border: 10px #F39818 solid;
+  background-color: #F39818;
+}
+
+.cont_img{
+  background-color: #031738;
+  padding: 22px 0px;
+}
+
+.cont_dej{
+  background-color: #EEF3F6;
+  color: #0B6496;
+}
+
+.cintaR{
+  border: 2px #D21415 solid;
+  width: 5%;
+  margin: auto;
+}
+
+.right{
+  width: 48%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.left{
+  width: 48%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.cont_info{
+  border: 2px #0B6496 solid;
+  border-radius: 15px;
+}
+
+.cont_info h2{
+  color: #F29100;
+}
+
+.radio{
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.radio label{
+  padding: 0px 5px;
+}
+
+.btn_rojo{
+  padding: 5px 70px;
+  background-color: #BE100F;
+  color: #EEF3F6;
+  width: 50%;
+  border-radius: 20px;
+  border: none;
+}
+
+.datos{
+  background-color: #031738;
+  color: #EEF3F6;
+  padding: 20px;
+}
+
+/* estilos de la validacion */
+
+#nombrecompleto:focus, #email:focus, #numero:focus{
+  background-color: #f2f2f2;
+}
+
+#Area:focus{
+  outline: 4px gray solid;
+  outline-offset: 2px;
+}
